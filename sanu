@@ -1,0 +1,9 @@
+document.getElementById('registration-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+  
+    // Hide the form
+    document.getElementById('form-container').style.display = 'none';//hide
+  
+    // Show the thank you message
+    document.getElementById('thank-you-message').style.display = 'block';//display
+  });
