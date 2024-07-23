@@ -1,0 +1,7 @@
+<p id="demo"></p>
+<script>
+    const cars1 =["MG HECTOR", "Volvo",..."BMW"];
+    const cars2 =["TATA","Toyata"];
+    const combined = [cars1,...cars2];
+    document.getElementById("demo").innerHTML = combined;
+</script>
